@@ -228,6 +228,7 @@ with st.container():
         )
         st.plotly_chart(fig, use_container_width=True)
 
+# ======================= 데이터 보기 및 이미지/다운로드 기능 추가 =====================================================
 # 시군구(가맹점 기준)별 데이터 보기 및 다운로드 기능
     with st.expander(f"시군구(가맹점 기준)별 {selected_metric} 데이터 보기"):
         if selected_metric == "카드이용금액":
