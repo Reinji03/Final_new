@@ -228,7 +228,7 @@ with st.container():
         )
         st.plotly_chart(fig, use_container_width=True)
 
-    # 시군구(가맹점 기준)별 데이터 보기 및 다운로드 기능
+# 시군구(가맹점 기준)별 데이터 보기 및 다운로드 기능
     with st.expander(f"시군구(가맹점 기준)별 {selected_metric} 데이터 보기"):
         if selected_metric == "카드이용금액":
             region = filtered_data.groupby(   # 지역별 판매액 계산
