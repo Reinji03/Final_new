@@ -1,8 +1,3 @@
-'''
-C221067 조현서
-배포링크: https://gfnljszxdbxx7appzgiv363.streamlit.app/
-'''
-
 # ======================= 라이브러리 임포트 ===================================================
 import streamlit as st
 import pandas as pd
@@ -228,8 +223,7 @@ with st.container():
         )
         st.plotly_chart(fig, use_container_width=True)
 
-# ======================= 데이터 보기 및 이미지/다운로드 기능 추가 =====================================================
-# 시군구(가맹점 기준)별 데이터 보기 및 다운로드 기능
+    # 시군구(가맹점 기준)별 데이터 보기 및 다운로드 기능
     with st.expander(f"시군구(가맹점 기준)별 {selected_metric} 데이터 보기"):
         if selected_metric == "카드이용금액":
             region = filtered_data.groupby(   # 지역별 판매액 계산
