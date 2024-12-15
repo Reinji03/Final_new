@@ -3,3 +3,9 @@ pandas
 plotly
 geopandas
 folium
+pyproj
+shapely
+fiona
+gdal
+htmlmin
+matplotlib
