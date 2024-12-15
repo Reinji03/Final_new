@@ -1,7 +1,7 @@
 streamlit
 pandas
-plotly
 geopandas
+plotly
 folium
 pyproj
 shapely
