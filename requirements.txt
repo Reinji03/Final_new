@@ -6,6 +6,5 @@ folium
 pyproj
 shapely
 fiona
-gdal
 htmlmin
 matplotlib
